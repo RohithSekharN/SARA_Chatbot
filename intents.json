@@ -1,7 +1,7 @@
 {"intents":
 [
   {"tag": "greetings",
-  "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening","what can i do for you"],
+  "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
   "responses": ["Hello there!", "Hi, how are you?", "Hey, what's up?", "Good morning to you too!", "Good afternoon!", "Good evening, how's it going?"]},
   
   {"tag": "create_note",
