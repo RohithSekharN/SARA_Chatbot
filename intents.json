@@ -1,0 +1,23 @@
+{"intents":
+[
+  {"tag": "greetings",
+  "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
+  "responses": ["Hello there!", "Hi, how are you?", "Hey, what's up?", "Good morning to you too!", "Good afternoon!", "Good evening, how's it going?"]},
+  
+  {"tag": "create_note",
+  "patterns": ["please create a new note","new note"],
+  "responses": [""]},
+  
+  {"tag": "add_todo",
+  "patterns": ["I want to add a todo","add a new todo"],
+  "responses": [""]},
+  
+  {"tag": "show_todos",
+  "patterns": ["show my todos","what are my todos"],
+  "responses": [""]},
+  
+  {"tag": "exit",
+  "patterns": ["Bye","Stop","Goodbye"],
+  "responses": [""]}
+]}
+
